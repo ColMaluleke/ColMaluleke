@@ -1,0 +1,15 @@
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.exe
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.deps.json
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.dll
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.pdb
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.dll
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.pdb
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\dev\src\repo\ColMaluleke\CsharpProjects\TestProject\obj\Debug\net8.0\ref\TestProject.dll
