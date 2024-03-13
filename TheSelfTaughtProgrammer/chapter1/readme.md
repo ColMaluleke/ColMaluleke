@@ -29,3 +29,14 @@
 - The way I learned to program is the opposite of CS is usually taught, and I structured the book to follow this approach. --> Tradiotionally, you spend alot of time learning theory; so much so, that many CS graduates come out of school not knowing how to program.
 - So instead of learning the opening moves, I focus on learning the endgame (where there are only a few piceces left on the board) first. --> This gives me a better understanding of the game, and will increase my chance of winning and becoming a champion.
 `While theory is important, it will be even more valuable once you have the skills and experience.`
+
+# The Self-taught Advantage
+- A 2015 Stack Overflow survey found 48 percent of respondents didn't have a CS degree.
+- As intimidating as it might be to work with people who have bachelors, masters, and PHDs in CS, never forget that you have the "Self-Taught Advantage". --> Wanting to learn is the biggest advantage you can have in this industry.
+
+# Why You Should Program
+- Learning to prpogram is empowering. --> I love coming up with new ideas, and I always have a new project that I want to work on.
+- Once I learned how to program, I could sit down and build my ideas without needing to find someone to do it for me.
+- There aren't many subjects taht don't benefit from finely tuned problem-solving skills.
+- Learning to program will free you from repetivive tasks forever.
+- Evening if your goal isn't to become a software engineer, jobs in fields like science and finance are beginning to favor candidates with programming experience.
