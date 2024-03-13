@@ -2,7 +2,6 @@
 - Introduction Notes from "The Self-Taught Programmer"
 - "Most good programmers do programming not because the expect to get paid or get adulation by the public, but because it is fun to program."
 - Software Engineer II --> Above an entry level software engineer, but below a senior software engineer.
-
 - This book was written specifically for those looking to program professionally. --> Whether your goal is to becomae a software engineer, an entrepreneur or to use your new programming skills in another profession.
 
 # How the book is structured
@@ -23,12 +22,12 @@
 - PART 5: PROGRAMMING FOR PRODUCTION --> You will learn to program for production (create code that is actually used by other people). - I cover the software development process, testing and best programming practices.
 - PART 6: LAND A JOB. --> The final section is about getting a job as a software engineer, working on a team and improving as a programmer. - I provide tips on how to pass a technical interview, work on a team as well as advice on how to improve your skills.
 - If you don't have any programming experience, you should try to practice programming on your own as much as possible between each section.
-`Don't try to read this book too quickly. Instead, use it as a guide and practice for as long as you need in between sections.`
+- `Don't try to read this book too quickly. Instead, use it as a guide and practice for as long as you need in between sections.`
 
 # Endgame First
 - The way I learned to program is the opposite of CS is usually taught, and I structured the book to follow this approach. --> Tradiotionally, you spend alot of time learning theory; so much so, that many CS graduates come out of school not knowing how to program.
 - So instead of learning the opening moves, I focus on learning the endgame (where there are only a few piceces left on the board) first. --> This gives me a better understanding of the game, and will increase my chance of winning and becoming a champion.
-`While theory is important, it will be even more valuable once you have the skills and experience.`
+- `While theory is important, it will be even more valuable once you have the skills and experience.`
 
 # The Self-taught Advantage
 - A 2015 Stack Overflow survey found 48 percent of respondents didn't have a CS degree.
@@ -37,6 +36,10 @@
 # Why You Should Program
 - Learning to prpogram is empowering. --> I love coming up with new ideas, and I always have a new project that I want to work on.
 - Once I learned how to program, I could sit down and build my ideas without needing to find someone to do it for me.
-- There aren't many subjects taht don't benefit from finely tuned problem-solving skills.
+- There aren't many subjects that don't benefit from finely tuned problem-solving skills.
 - Learning to program will free you from repetivive tasks forever.
 - Evening if your goal isn't to become a software engineer, jobs in fields like science and finance are beginning to favor candidates with programming experience.
+
+# Sticking With It
+- If you don't have any programming experience and are nervous about making this journey, I want you to know you're absolutey capable of doing it. --> There are some common misconceptions about programmers like they're all really good at math. This isn't true, but it is hard work.
+- `In order to improve your programming skills you should practice programming every day. `
