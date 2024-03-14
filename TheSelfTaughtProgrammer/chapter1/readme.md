@@ -42,4 +42,26 @@
 
 # Sticking With It
 - If you don't have any programming experience and are nervous about making this journey, I want you to know you're absolutey capable of doing it. --> There are some common misconceptions about programmers like they're all really good at math. This isn't true, but it is hard work.
-- `In order to improve your programming skills you should practice programming every day. `
+- `In order to improve your programming skills you should practice programming every day. The only thing that will hold you back is not sticking with it, so let's go over some way to make sure that you do. --> I used a checklist to to make sure I practiced every day and it really helped me stay focused.`
+- Try the following: `Give money to family and friends with the instructions that it is either to be returned to you upon completing your goal/ assignment within a specific timeframe. If the assignment isn't completed in that timeframe they must donate the money to an organization or person that you dislike.`
+
+# Technologies Used In This Book
+- Git --> For version control
+- Python --> For programming examples
+- The aim is actually to focus on concepts rather than technologies
+- Your PC has an OS. Which is a program that is used as the middleman between the physical components of the computer and you. -- Another part of your OS is the GUI (Graphical User Interface) which is what you see when you look at your screen.
+- There are 3 popular OS's for desktops and laptops:
+    1. Windows - Windows is Microsoft's operating system.
+    2. Linux - Linux is an open-source OS used by the majority of the world's servers. 
+    3. Unix - Unix is an OS created in the 1970s. Currently, the most popular Unix OS is Apple's "OSX".
+- A server is a computer or computer program that performs tasks like hosting a website.
+- Open-Source means the software isn't owned by a company or individual, instead in maintained by a group of volunteers.
+
+# Vocabulary
+`FizzBuzz` --> A programming test used in programming interviews to weed out candidates.
+`Operating System (OS)` --> A program that is the middleman between the physical components of the PC and you.
+`Open-Source` --> Software that is not owned by a company or individual, but is instead maintained by a group of volunteers.
+`Windows` --> Microsoft's OS
+`Unix` --> An OS created in the 1970's. - Most recently used as the base of Apple's OSX
+`Linux` --> An Open-Source OS used by the majority of the world's servers.
+`Server` --> A computer or program used to perfom tasks like hosting a website.
