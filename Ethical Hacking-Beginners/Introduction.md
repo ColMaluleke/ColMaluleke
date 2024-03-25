@@ -13,3 +13,8 @@
 - `Storage Security` --> It's the process of securing data storage ecosystems along with the stored data by offering strong data resilience via encrypting and isolating data copies to avoid cyber attacks.
 - `Mobile Security` --> These are the cybersecurity measures that protect sensitive data stored on mobile devices like smart phones, laptops, wearables, voices assistants, etc.
 
+# Common Cyber Threats
+- `Phishing` --> Phishing is one of the social Engineering attcatks where cyber attackers aim to steal your identity or money by using psychological manipulation to trick you into revealing you sensitive or Personal Identifiable Information. - In simple terms, they will send you an email or message pretending to be a legitimate company (asking for login credentials, bank account details, or credit card data).
+- `Malware` --> It reers to malicious software programs (viruses, trojans, worms, spyware, ransomare, botnets and adware) that are intended to cause harm or disruption to the computer networks, systems, servers, etc. to gain unauthorized access to the information. - Typical malware is spread and installed on the user's computer via genuine-looking downloads or email attachments.
+- `SQL Injection` --> It is a form of cyber attack where malicious SQL code is injected into an application to give hackers control over its DB (database) and gain access to sensitive information stored there.
+- `Man-In-The-Middle` --> It's an eavesdropping cyberattack in which a cyber attacker secretly sends and alters commutincation between two individuals to gain private information while they believe the are communicating with one another.
