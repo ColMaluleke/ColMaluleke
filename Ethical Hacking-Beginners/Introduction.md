@@ -22,4 +22,5 @@
 - `DNS Attacks` --> Denial-of-Servics attacks that target the availability of network resources and make the temporarily unavailable, disrupting host services. - It prevents the computer network or system from functioning properly and fulfilling user requests.
 - `Distributed Denial of Service (DDoS)` --> It's a form of cyber threat where the attacker disrupts the traffic of the targeted server by overwhelming it, by send a flod of internet traffic at once.
 - `Crptojacking` --> In cyberjacking/ cryptojacking, attackers hijack the computer system for mining crptocurrencies against the will of the user.
-- `Social Engineering` --> It's a psychological manipulation technique used by cyberattackers to trick people into making security mistakes leading to revealing their confidential data. - Pretexting, Phishing, Tailgating, and CEO fraud are some examples
+- `Social Engineering` --> It's a psychological manipulation technique used by cyberattackers to trick people into making security mistakes leading to revealing their confidential data. - Pretexting, Phishing, Tailgating, and CEO fraud are some examples of social engineering threats.
+- 
