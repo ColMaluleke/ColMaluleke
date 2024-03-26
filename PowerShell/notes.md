@@ -18,3 +18,22 @@
 - Several Microsoft products have already adopted this approach, including Exchange Server 2007 and beyond, SharePoint Server 2010 and later, many of the Systen Center products, Office 365, and many components of Windows itself.
 - Windows Server 2012, where PowerShell ver. 3 was introduced, is almost completely managed from PowerShell - or by GUI sitting on top of PowerShell.
 - It's already become the foundation for numerous higher-level technologies, including Desired State Configuration (DSC), PowerShell Workflow, and much more. --> PowerShell is everywhere.
+`If you were in charge of a team of IT Administrators, who would you want in your senior higher-paying position?`
+--> Administrators would need several minutes to click their way through a GUI each time they need to perform a task?
+--> Or one who can perform tasks in a few seconds, after automating them?
+Ask a Cisco Andministrator, or an AS/400 operator, or a Unix Administrator. --> The answer is: "I'd rather have the person who can run things more efficiently from the command-line"
+- The world is now split into 2 groups:
+    1. Administrators who can use PowerShell
+    2. Those who can't
+- Your only choice is to learn PowerShell.
+
+# And now, it's just PowerShell
+- In mid-2016, Microsoft made PowerShell completely Open-Source. --> It released versions of PowerShell (without Windows attached) for MacOS and numerous Linux builds. Now the same object-centric shell is available on many Operating Systems, and can be evolved and improved by a worldwide community.
+
+# Is this course for you?
+- Microsoft's PowerShell team loosely defines 3 audiences who use PowerShell:
+    1. Administartors who primarily run commands and consume tools written by others.
+    2. Administrators who combine commands and tools into more complex processes, and perhaps package those as tools that less-experienced administrators can use.
+    3. Administrators and developers who create reusable tools and applications.
+- We think it's valuable for anyone, even a developer, to understand how the shell is used to run commands.
+- If you're going to create your own tools and commands, you should know the patterns that the shell uses, as they allow you to make tools and commands that work as well as they can within the shell.
