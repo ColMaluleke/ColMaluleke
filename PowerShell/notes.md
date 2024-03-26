@@ -37,3 +37,8 @@ Ask a Cisco Andministrator, or an AS/400 operator, or a Unix Administrator. --> 
     3. Administrators and developers who create reusable tools and applications.
 - We think it's valuable for anyone, even a developer, to understand how the shell is used to run commands.
 - If you're going to create your own tools and commands, you should know the patterns that the shell uses, as they allow you to make tools and commands that work as well as they can within the shell.
+- If you're interested in creating scripts to automate complex processes, such as new provisioning , then you'll see how to do that by the end of this course. --> You'll even see how to get started on creating your own commands that other administrators can use,
+- The goal is toget youusing the Shell and being effective with it in a Production Environment. --> We'll also show you a couple of ways to use PowerShell to connect to external management technologies; Windows Management Instrumentation (WMI) and regular expressions are the 2 exmaples that come to mind.
+- In short, this course isn't meant to be the last thing you use to learn PowerShell, but instead it's designed to be a great first step.
+
+# Setting uo your lab environment
