@@ -42,3 +42,7 @@ Ask a Cisco Andministrator, or an AS/400 operator, or a Unix Administrator. --> 
 - In short, this course isn't meant to be the last thing you use to learn PowerShell, but instead it's designed to be a great first step.
 
 # Setting uo your lab environment
+- All you need to run most of the given exmaples (and to complete all of your labs) is a copy of Windows that has PowerShell installed.
+- `Tip` - You should be able to accomplish everything in this course with a single computer running PowerShell, although some stuff gets more interesting if you use 2 or 3 computers (VMs are perfect for this) all in the same domain, to play with. --> We suggest using CloudShare (https://www.cloudshare.com) as an affordable way to spin up several VMs in the cloud.
+
+# Installing Windows PowerShell
