@@ -46,3 +46,7 @@ Ask a Cisco Andministrator, or an AS/400 operator, or a Unix Administrator. --> 
 - `Tip` - You should be able to accomplish everything in this course with a single computer running PowerShell, although some stuff gets more interesting if you use 2 or 3 computers (VMs are perfect for this) all in the same domain, to play with. --> We suggest using CloudShare (https://www.cloudshare.com) as an affordable way to spin up several VMs in the cloud.
 
 # Installing Windows PowerShell
+-  Firstly, the current version of Windows comes with PowerShell pre-installed.
+- `Tip` - You should check your version of PowerShell --> Open the POwerShell console and use the `$PSVersionTable` command.
+- PowerShell has 2 application components --> The standard text-based console host (PowerShell.exe) and the more visual ISE (PowerShellISE.exe). -- We'll use the text-based console most of the time, but you're welcome to use the ISE if you prefer.
+- The PowerShell ISE is pre-installed on Operating Systems. --> If you want to use it, you'll need to go into WindowsFeatures (using Server Manager) and manually add the ISE feature (you can also open the PowerShell console and run `Add-WindowsFeature powershell-ise`). -- The ISE isn't available at all on server installations that don't have a full GUI (for exaple, Server Core or  Nano Server).
