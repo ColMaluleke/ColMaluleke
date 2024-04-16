@@ -1,0 +1,10 @@
+The 7 levels of a Cyber Kill Chain are:
+1. Reconnaissance/ Recon --> Through OSINT, Social Media, or publicly available data; hacking targets are identified. Especially key idnividuals within the organization.
+2. Weaponization --> Actual weapon or exploit is developed based on the info gathered during recon. -- Malware, Phishing emails or custom code used to exploit vulnerabilities.
+3. Delivery --> The weaponized payload is delivered to the target. -- Common methods include phishing emails, infected attachments, or physical means like USB drops. -- The goal is to trick the target into activating or executing the malicious payload.
+4. Exploitation --> taking advantage of Vulnerabilities in the target's system, such as misconfigurations, software vulnarabilities, or weaknesses in user behaviour allowing for access to the taget environment.
+5. Installation --> Once instide the target system, the attackers install malicious code or software. -- This involves persistence mechanisms to maitain access after after reboots. -- This is crucial for maintain control over compromised systems.
+6. Command and Control --> Establishing a communication channel between the compromised system between the compromised system and your infrastructure. -- This can involve creating backdoors, using covert channels or leveraging existing network protocols to main conotrol. --  The C2 stage enables attackers to remotely send commands and receive data from the compromise environment.
+7. Actions on objectives --> Attackers carry out primary objectives, this could involve data exfiltration, system disruption, or any other malicious act planned during the earlier stages. -- The actions align with the attacker's over goals and they may take steps to cover their tracks and avoid detection.
+
+`Understandign these detailed stages can help an organization develop more effective deffenses.`
