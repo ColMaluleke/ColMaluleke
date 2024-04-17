@@ -64,3 +64,8 @@ To create users in Azure AD, do the following:
     --> Manager: No manager selected
 7. Click `Create`
 8. Repeat these steps to create more users.
+
+# Creating groups in Azure AD
+There are 2 main group types:
+--> Security groups: These groups serve the same function as traditional on-prem groups, which is to secure objects within a directory. -- In this case, it is to secure objects within Azure AD.
+--> Microsoft 365 groups: These groups are used to provide a group of people with access to a collection of shared resources. -- This isn't limited to Azure AD but includes shared mailboxes, calendars, SharePoint Libraries, and other Microsoft 365-related services.
