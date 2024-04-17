@@ -44,3 +44,23 @@ Premium 2 (P2) --> In addition to the  free and P1 features, the Premium 2 licen
          -- Privileged Identity Management
          -- Access reviews
          -- Entitlement management
+
+# Creating users in Azure AD
+To create users in Azure AD, do the following:
+1. Navigate to the `Azure Portal`
+2. In the left-hand menu, select `Azure Active Directory`
+3. Under the `Manage` blade of Azure AD (in the left-hand menu), select `Users|All Users --> The select the `+ New User` option from the menu on top.
+4. Fill in the fields:--> Name
+                      --> Username  -- The Username is the identifier that users enters to sign into Azure AD. Select your `domain name`, which has been configured, and add it to the end of the username. -- The default is usually an `onmicrosoft.com` domain.
+                      --> First Name
+                      --> Last Name
+5. Leave the section under `Groups and Roles` in the default settings, for now.
+6. Next, we need to fill in information regarding the following:
+    --> Block Signin: No
+    --> Usage Location: South Africa
+    --> Job Title Azure Administrator
+    --> Department: IT
+    --> Company: Citadel
+    --> Manager: No manager selected
+7. Click `Create`
+8. Repeat these steps to create more users.
