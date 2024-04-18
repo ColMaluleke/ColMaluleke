@@ -67,5 +67,28 @@ To create users in Azure AD, do the following:
 
 # Creating groups in Azure AD
 There are 2 main group types:
---> Security groups: These groups serve the same function as traditional on-prem groups, which is to secure objects within a directory. -- In this case, it is to secure objects within Azure AD.
---> Microsoft 365 groups: These groups are used to provide a group of people with access to a collection of shared resources. -- This isn't limited to Azure AD but includes shared mailboxes, calendars, SharePoint Libraries, and other Microsoft 365-related services.
+--> `Security groups`: These groups serve the same function as traditional on-prem groups, which is to secure objects within a directory. -- In this case, it is to secure objects within Azure AD.
+--> `Microsoft 365 groups`: These groups are used to provide a group of people with access to a collection of shared resources. -- This isn't limited to Azure AD but includes shared mailboxes, calendars, SharePoint Libraries, and other Microsoft 365-related services.
+
+Security groups are used as containers to group users or devices together. There are 3 main membership types for security groups:
+1. `Assigned` --> This is where you manually assign users to a group.
+2. `Dynamic User` --> This is where you can specify parameters to automatically group users. -- For example, grouping all users who work in a certain department or share a job title.
+3. `Dynamic Devices` --> This is where you can specify parameters to automatically group devices. -- For example, grouping all devices that have the same Operating System (OS) version.
+
+To create and manage groups from the Azure AD tenant in the Azure Portal, you have to perform the following steps:
+1. Navigate to `Azure Portal`
+2. In the left-hand menu, select `Azure Active Directory`
+3. Under the manage blade of Azure AD in the left-had menu, select `Groups | All Groups` --> Then select the `+ New group` option on top.
+4. Add the following values to create the new group:
+    --> Group Type: Security
+    --> Group Name: Azure Admins
+    --> Group Description: Dynamic group for all Azure Admins
+    --> Azure AD Roles Can Be Assigned To The Group: No
+    --> Membership Type: Dynamic User
+    --> Owners: No Owners Selected
+5. [Do more research on adding a dynamic query] --> For this example (for the dynamic query rule), the `property` is Job Title, the `operator' is Equals, and the `value` is Azure Administrator.
+6. Click on `Create`
+
+\\Remember that when using dynamic groups, a Premium 1 (P1) license needs to be assigned to the user.\\
+
+Now that the group has been created, replication only takes 5 minutes. --> Refresh the web page, and users will appear as members of the Azure Admins group that was created.
