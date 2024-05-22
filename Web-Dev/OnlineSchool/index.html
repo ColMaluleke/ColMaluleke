@@ -6,6 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online School</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        const signupLink = document.getElementById('signup-link');
+        const signinLink = document.getElementById('signin-link');
+        const signupForm = document.getElementById('signup-form');
+        const signinForm = document.getElementById('signin-form');
+      
+        signupLink.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default link behavior
+          signupForm.style.display = 'block';
+          signinForm.style.display = 'none';
+          signupLink.classList.add('active');
+          signinLink.classList.remove('active');
+        });
+      
+        signinLink.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default link behavior
+          signupForm.style.display = 'none';
+          signinForm.style.display = 'block';
+          signupLink.classList.remove('active');
+          signinLink.classList.add('active');
+        });
+      </script>
+      
 </head>
 
 <body>
@@ -24,10 +48,20 @@
     <section class="landing-page">
         <h1>Welcome to Our Online School</h1>
         <p>Start your learning journey with us today!</p>
-        <div class="buttons">
-            <a href="#" class="btn">Sign In</a>
-            <a href="#" class="btn">Register</a>
-        </div>
+        <section class="form-container">
+            <a href="#" class="active" id="signup-link">Sign Up</a>
+            <a href="#" id="signin-link">Sign In</a>
+          
+            <form id="signup-form">
+              <button type="submit">Register</button>
+            </form>
+          
+            <form id="signin-form">
+              <button type="submit">Sign In</button>
+            </form>
+          </section>
+          
+          
     </section>
 
     <footer>
