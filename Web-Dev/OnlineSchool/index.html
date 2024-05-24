@@ -1,74 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online School</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <script>
-        const signupLink = document.getElementById('signup-link');
-        const signinLink = document.getElementById('signin-link');
-        const signupForm = document.getElementById('signup-form');
-        const signinForm = document.getElementById('signin-form');
-      
-        signupLink.addEventListener('click', function(event) {
-          event.preventDefault(); // Prevent default link behavior
-          signupForm.style.display = 'block';
-          signinForm.style.display = 'none';
-          signupLink.classList.add('active');
-          signinLink.classList.remove('active');
-        });
-      
-        signinLink.addEventListener('click', function(event) {
-          event.preventDefault(); // Prevent default link behavior
-          signupForm.style.display = 'none';
-          signinForm.style.display = 'block';
-          signupLink.classList.remove('active');
-          signinLink.classList.add('active');
-        });
-      </script>
-      
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertex Education</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="logo">Online School</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="landing-page">
-        <h1>Welcome to Our Online School</h1>
-        <p>Start your learning journey with us today!</p>
-        <section class="form-container">
-            <a href="#" class="active" id="signup-link">Sign Up</a>
-            <a href="#" id="signin-link">Sign In</a>
-          
-            <form id="signup-form">
-              <button type="submit">Register</button>
-            </form>
-          
-            <form id="signin-form">
-              <button type="submit">Sign In</button>
-            </form>
-          </section>
-          
-          
-    </section>
+  <header>
+    <img src="image.jpg" alt="Online Learning Background">
+    <nav>
+      <ul>
+        <li><a id="home-link">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Unleash Your Inner Market Maverick at Vertex Education</h1>
+    <a href="#">[Main CTA Button Text]</a>
+  </header>
 
-    <footer>
-        <p>&copy; 2024 Online School. All rights reserved.</p>
-    </footer>
+  <section id="about">
+    <h2>About Vertex Education</h2>
+    <p>Welcome to the cutting edge of financial education! At Vertex Education, we're not just about teaching you how to trade – we're about empowering you to navigate the thrilling world of speculative markets with confidence.</p>
 
-    <script src="script.js"></script>
+    <p>Our team of industry veterans has a proven track record of success, and they're passionate about sharing their insights with you. We believe that anyone with the dedication and the right tools can become a force to be reckoned with in the markets.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Explore Our Courses</h2>
+    <ul>
+      <li>
+        <img src="course1.jpg" alt="Course 1 Thumbnail">
+        <h3>Course 1 Title</h3>
+        <p>Short course description</p>
+      </li>
+      </ul>
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>Benefit 1 - Icon (placeholder)</li>
+      <li>Benefit 2 - Icon (placeholder)</li>
+      <li>Benefit 3 - Icon (placeholder)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <a href="#">[Main CTA Button Text] (Free Trial)</a>
+  </section>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </nav>
+    <p>&copy; Vertex Education 2024</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>

@@ -1,88 +1,78 @@
-/* styles.css */
-
-/* Global Styles */
+/* Body Styles */
 body {
-    background-image: url("./image/mill.jpg"); /* Replace with your image path */
-    background-repeat: no-repeat; /* Optional: control how the image repeats */
-    background-position: center; /* Optional: control the image position */
-    background-size: cover; /* Optional: control the image size */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-
-/* Header Styles */
-header {
-    display: flex; /* Make the header a flex container */
-    justify-content: space-between; /* Distribute items with both ends */
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Make the navigation links a flex container */
-  }
-  
-  .nav-links li {
-    margin-right: 1rem;
-  }
-  
-  .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .logo {
-    flex: 0 0 auto; /* Prevent logo from shrinking/growing with flexbox */
-    margin-right: 1rem; /* Add some space between logo and navigation links */
-  }
-  
-
-/* Landing Page Styles */
-.landing-page {
-    text-align: center;
-    padding: 5rem 0;
+  font-family: Arial, sans-serif; /* Fallback font */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark forest green for text */
 }
 
-.buttons {
-    margin-top: 2rem;
+/* Header Section */
+.header {
+  background: #001F3F; /* Navy blue with subtle gradient */
+  background-image: linear-gradient(to bottom, #001F3F 0%, #00294C 100%);
+  padding: 50px 0;
+  text-align: center;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    margin: 0 0.5rem;
-    transition: background-color 0.3s ease;
+/* Hero Image */
+.hero-image {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.btn:hover {
-    background-color: #555;
+/* Headings */
+h1, h2, h3 {
+  font-family: Garamond, serif;
+  color: #333; /* Dark forest green */
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Body Text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
-.form-container form {
-    display: none;
-  }
-  .form-container a.active {
-    background-color: #ddd; /* Optional styling for active link */
-  }
-    
+
+/* Call to Action Buttons */
+.cta-button {
+  background-color: #DAA520; /* Muted gold */
+  color: #fff; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #C79A1A; /* Darker shade of muted gold on hover */
+}
+
+/* Sections */
+.section {
+  padding: 50px 0;
+  background-color: #fff; /* White background */
+}
+
+/* Charts and Infographics */
+.chart, .infographic {
+  border: 1px solid #DDD; /* Light gray border */
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+nav {
+  position:relative;
+  top: 0; /* Position at the top of the window */
+  left: 0; /* Position at the left of the window */
+  width: 100%; /* Span the full width of the viewport */
+  background-color: #fff; /* Adjust background color as desired */
+  padding: 10px 20px; /* Add some padding for aesthetics */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  z-index: 999; /* Ensure the navigation bar remains above other elements */
+}
+/* This is just a starting point, feel free to customize further!  */
