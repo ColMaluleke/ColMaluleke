@@ -2,7 +2,7 @@
 
 **`Code Crusader`**
 
-<p>lorem</p>
+<p>Calling all software savants and deployment daredevils! This full-stack virtuoso and DevOps maestro (aka Code Conqueror) stands ready to tame your code and propel your applications to the digital cosmos! Armed with my arsenal (C#, HTML5, CSS3, JavaScript, NodeJS, NPM, MySQL, JSON, PowerShell, AngularJS, Python), I can compose interfaces that sing harmoniously and code that purrs contentedly. Then, I strap on my automation jetpack (CI/CD, Infrastructure as Code) and, utilizing Terraform, Docker, and Kubernetes, forge pipelines smoother than a space walrus and infrastructure tougher than a cyber dragon's scales. My Azure Administration prowess ensures the cloud remains unblemished. So, gear up, clone my code repository, and together we shall embark on epic deployments, audaciously crafting the future, one sublime line of code at a time!</p>
 
 ### Languages and Tools
 
