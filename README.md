@@ -2,7 +2,9 @@
 
 **`Code Crusader`**
 
-<p>Calling all software savants and deployment daredevils! This full-stack virtuoso and DevOps maestro (aka Code Conqueror) stands ready to tame your code and propel your applications to the digital cosmos! Armed with my arsenal (C#, HTML5, CSS3, JavaScript, NodeJS, NPM, MySQL, JSON, PowerShell, AngularJS, Python), I can compose interfaces that sing harmoniously and code that purrs contentedly. Then, I strap on my automation jetpack (CI/CD, Infrastructure as Code) and, utilizing Terraform, Docker, and Kubernetes, forge pipelines smoother than a space walrus and infrastructure tougher than a cyber dragon's scales. My Azure Administration prowess ensures the cloud remains unblemished. So, gear up, clone my code repository, and together we shall embark on epic deployments, audaciously crafting the future, one sublime line of code at a time!</p>
+<p>Attention all tech troopers and digital adventurers! This full-stack commando and DevOps astronaut (aka Code Conqueror) is here, ready to tackle your code and launch your applications into the vast expanse of cyberspace! Equipped with my trusty gear (C#, HTML5, CSS3, JavaScript, NodeJS, NPM, MySQL, JSON, PowerShell, AngularJS, Python), I craft interfaces that serenade and code that hums. Then, I fire up my automation thrusters (CI/CD, Infrastructure as Code) and, using Terraform, Docker, and Kubernetes, construct pipelines smoother than an orbital glide and infrastructure sturdier than a starship's hull. My Azure Administration skills keep the cloud crystal clear. So, suit up, pull my code from the repository, and together we'll execute legendary deployments, boldly coding the future, one extraordinary line at a time!</p>
+
+---
 
 ### Languages and Tools
 
