@@ -268,6 +268,18 @@ h1, h2, h3, h4, h5, h6 {  /* Targets all heading levels */
   font-size: inherit;
 }
 
+.nav-links ul {
+  list-style: none; /* Remove default decoration */
+  margin: 0; /* Remove default margin */
+  display: none; /* Hide navigation links initially */
+  flex-direction: column; /* Align items in a column for mobile view */
+  align-items: center; /* Center links horizontally */
+  width: 100%; /* Span the full width on mobile */
+  background-color: #fff; /* Optional background color */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+
 /* Additional CSS */
 .nav-links ul.show {
   display: flex;
