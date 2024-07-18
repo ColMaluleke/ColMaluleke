@@ -1,0 +1,26 @@
+nav {
+    display: flex; /* Make navigation bar elements horizontal */
+    align-items: center; /*align content vertically */
+    background-color: #f0f0f0; /* Optional background colour */
+}
+
+nav img {
+    width: 100px; /* Adjust logo width as needed */
+    margin-right: 20px; /* Add space between logo and links */
+}
+
+nav ul {
+    margin: 0px; /* Remove default list margins */
+    padding: 0px; /* Remove default list paddings */
+    list-style: none; /* Remove bullet points */
+}
+
+nav li {
+    display: inline-block; /* Make list items display horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text colour for links */
+}
