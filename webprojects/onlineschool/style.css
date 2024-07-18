@@ -1,7 +1,25 @@
 /* Body styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', Arial, sans-serif; /* Roboto Slab is the default font and Arial is the fall back option */
     margin: 0; /* Remove default body margins */
+    padding: 0;
+    color: #333; /* Dark forest green for text */
+}
+
+/* Typography */
+.roboto-slab-bold {
+    font-family: 'Roboto Slab', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;  /* Assuming you want a bold weight */
+    font-style: normal;
+  }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;  /* Inherits font family from the parent element (optional) */
+    font-weight: inherit;  /* Inherits font weight from the parent element (optional) */
+    margin-bottom: 15px;
+    padding: 0 20px; /* Add padding to headings */
 }
 
 /* Navigation bar styles */
@@ -33,6 +51,34 @@ nav a {
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Text colour for links */
 }
+
+/* Header Section */
+header {
+    background: #001F3F; /* Navy blue with subtle gradient */
+    background-image: linear-gradient(to bottom, #001F3F 0%, #00294C 100%);
+    color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%; /* Ensure it reaches the edges */
+    box-sizing: border-box;
+  }
+
+/* Call to Action Buttons */
+.cta-button {
+    background-color: #DAA520; /* Muted gold */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+    display: inline-block;
+  }
+
+  .cta-button:hover {
+    background-color: #C79A1A; /* Darker shade of muted gold on hover */
+  }
 
 /* Repsonsive Styles (Media Queries) */
 @media (max-width: 768px) {

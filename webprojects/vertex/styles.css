@@ -73,13 +73,6 @@ img {
   box-sizing: border-box;
 }
 
-/* Charts and Infographics */
-.chart, .infographic {
-  border: 1px solid #DDD; /* Light gray border */
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
 /* Navigation */
 nav {
   position: relative;
@@ -131,34 +124,6 @@ nav a:hover {
   color: #DAA520; /* Hover effect */
 }
 
-/* Hamburger Menu */
-.hamburger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 0 20px; /* Add padding to hamburger menu */
-}
-
-.hamburger-menu .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
-.hamburger-menu.active .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.hamburger-menu.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-menu.active .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
-
 /* Responsive Layout */
 .container {
   display: grid;
@@ -193,65 +158,6 @@ footer {
 
 .social-media a {
   margin: 0 10px;
-}
-
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-
-  nav img {
-    width: 100px; /* Slightly bigger logo on mobile */
-  }
-
-  .footer-container {
-    flex-direction: column;
-  }
-
-  .section {
-    padding: 50px 20px; /* Adjust padding for smaller screens */
-  }
-}
-
-@media (min-width: 769px) {
-  /* Remove padding from paragraphs, headings, nav links, and hamburger menu for large screens */
-  p,
-  h1, h2, h3, h4, h5, h6,
-  nav a,
-  .hamburger-menu,
-  a,
-  img {
-    padding: 0 20px; /* Add padding to hyperlinks and images */
-  }
-  
-  nav {
-    padding-right: 100px; /* Adjust padding to move nav menu slightly more to the right */
-  }
-
-  nav li {
-    margin-left: 0; /* Remove margin between nav li elements */
-    padding: 7px; /* Remove padding from nav li elements */
-  }
-
-  nav a {
-    padding: 0; /* Remove padding from nav links */
-  }
-}
-
-@media (max-width: 480px) {
-  header h1, section h2, footer p {
-    font-size: 1.2em;
-  }
 }
 
 /* Typography */
