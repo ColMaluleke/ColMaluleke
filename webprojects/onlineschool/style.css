@@ -1,7 +1,16 @@
+/* Body styles */
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default body margins */
+}
+
+/* Navigation bar styles */
 nav {
     display: flex; /* Make navigation bar elements horizontal */
+    justify-content: space-between; /* Move links to the right */
     align-items: center; /*align content vertically */
     background-color: #f0f0f0; /* Optional background colour */
+    padding: 10px 20px; /* Add some padding */
 }
 
 nav img {
@@ -23,4 +32,30 @@ nav li {
 nav a {
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Text colour for links */
+}
+
+/* Repsonsive Styles (Media Queries) */
+@media (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px */
+
+    nav {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+
+    nav img {
+        margin-bottom: 10px; /* Add some space after logo on small screens */
+    }
+
+    nav ul {
+        text-align: center; /* Center links horizontally */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
 }
