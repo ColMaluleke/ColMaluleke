@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Body Text */
-p {
+section p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -40,12 +40,13 @@ p {
 }
 
 /* Hyperlinks */
-a {
+/* Body Text */
+section a {
   padding: 0 20px; /* Add padding to hyperlinks */
 }
 
 /* Images */
-img {
+section img {
   padding: 0 20px; /* Add padding to images */
 }
 

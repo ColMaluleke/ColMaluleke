@@ -22,6 +22,24 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px; /* Add padding to headings */
 }
 
+/* Body Text */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0 20px; /* Add padding to paragraphs */
+  }
+
+/* Hyperlinks */
+section a {
+    padding: 0 20px; /* Add padding to hyperlinks */
+  }
+  
+/* Images */
+section img {
+    padding: 0 20px; /* Add padding to images */
+  }
+
 /* Navigation bar styles */
 nav {
     display: flex; /* Make navigation bar elements horizontal */
@@ -31,6 +49,7 @@ nav {
     padding: 10px 20px; /* Add some padding */
 }
 
+/* Logo on nav bar */
 nav img {
     width: 100px; /* Adjust logo width as needed */
     margin-right: 20px; /* Add space between logo and links */
@@ -52,6 +71,10 @@ nav a {
     color: #333; /* Text colour for links */
 }
 
+nav a:hover {
+    color: #DAA520; /* Hover effect */
+  }
+
 /* Header Section */
 header {
     background: #001F3F; /* Navy blue with subtle gradient */
@@ -65,19 +88,35 @@ header {
 
 /* Call to Action Buttons */
 .cta-button {
-    background-color: #DAA520; /* Muted gold */
-    color: #fff; /* White */
-    padding: 10px 20px;
+    background: linear-gradient(90deg, #DAA520, #FFC107); /* Gradient background */
+    color: #fff; /* White text */
+    padding: 15px 30px; /* Increase padding for a larger button */
     border: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Slightly larger border radius */
     font-weight: bold;
+    font-size: 18px; /* Increase font size */
     cursor: pointer;
-    margin: 10px auto;
+    margin: 20px auto;
     display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for 3D effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .cta-button:hover {
+    background: linear-gradient(90deg, #C79A1A, #EFB810); /* Darker gradient on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .cta-button:active {
+    transform: translateY(0); /* Return to original position on click */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Return to original shadow on click */
   }
 
-  .cta-button:hover {
-    background-color: #C79A1A; /* Darker shade of muted gold on hover */
+  .section {
+    padding: 50px 20px; /* Padding for main content */
+    box-sizing: border-box; 
   }
 
 /* Repsonsive Styles (Media Queries) */
