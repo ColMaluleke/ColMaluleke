@@ -119,8 +119,14 @@ header {
     box-sizing: border-box; 
   }
 
+  .offerings{
+    max-height: 20%;
+    max-width: 20%;
+    border-radius: 10%;
+  }
+
 /* Repsonsive Styles (Media Queries) */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     /* Adjust styles for screens smaller than 768px */
 
     nav {
@@ -142,5 +148,11 @@ header {
 
     p {
         font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+
+    .offerings{
+      max-height: 50%;
+      max-width: 50%;
+      border-radius: 10%;
     }
 }

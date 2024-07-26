@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1f1c32;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+div span {
+    font-size: 22vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+div span:not(:first-child) {
+    margin-left: -0.25em; /* Increased overlap */
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9),
+                0.05em -0.02em 0.08em rgba(255, 255, 255, 0.2); /* Added second text shadow */
+  }
+  
