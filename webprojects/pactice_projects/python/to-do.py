@@ -16,7 +16,7 @@ def main():
 
             for i in range(n_tasks):
                 task = input("Enter the task: ")
-                task.append({"task": task, "done": False})
+                tasks.append({"task": task, "done": False})
                 print("Task added!")
 
         elif choice == '2':
