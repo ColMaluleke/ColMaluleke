@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>My Bug Bounty Website</h1>
-        <p>Welcome to my landing page. This page will purely be used for marketing.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Bounty Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1 class="logo">Bug Bounty Platform</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Secure the World, One Bug at a Time</h2>
+            <p>Join our platform to uncover vulnerabilities and earn rewards.</p>
+            <div class="cta-buttons">
+                <a href="login.html" class="btn">Login</a>
+                <a href="register.html" class="btn">Register</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We connect ethical hackers with companies to create safer digital environments.</p>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="icon">&#128274;</i>
+                        <h3>Security</h3>
+                        <p>State-of-the-art security to protect our users.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="icon">&#128202;</i>
+                        <h3>Analytics</h3>
+                        <p>Advanced reporting tools for insightful analysis.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="icon">&#128176;</i>
+                        <h3>Rewards</h3>
+                        <p>Earn competitive rewards for your findings.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources">
+            <div class="container">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="docs.html">Documentation</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bug Bounty Platform. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><i class="icon">&#128221;</i> LinkedIn</a></li>
+                <li><a href="#"><i class="icon">&#128231;</i> Twitter</a></li>
+                <li><a href="#"><i class="icon">&#127759;</i> GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>
