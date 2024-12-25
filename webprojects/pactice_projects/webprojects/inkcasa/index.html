@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Casa Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="my_python_script.py"></script> 
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Ink Casa</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login" class="section">
+        <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm" class="form">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="booking" class="section">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <form id="bookingForm" class="form">
+                <label for="clientName">Client Name</label>
+                <input type="text" id="clientName" placeholder="Enter client name" required>
+
+                <label for="artistName">Artist Name</label>
+                <select id="artistName" required>
+                    <option value="">Select Artist</option>
+                    <option value="1">Jane Doe - Portraits</option>
+                    <option value="2">John Smith - Abstract</option>
+                </select>
+
+                <label for="serviceType">Service</label>
+                <select id="serviceType" required>
+                    <option value="">Select Service</option>
+                    <option value="tattoo">Tattoo</option>
+                    <option value="piercing">Piercing</option>
+                </select>
+
+                <label for="appointmentDate">Date</label>
+                <input type="date" id="appointmentDate" required>
+
+                <label for="appointmentTime">Time</label>
+                <input type="time" id="appointmentTime" required>
+
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="inventory" class="section">
+        <div class="container">
+            <h2>Inventory Management</h2>
+            <form id="inventoryForm" class="form">
+                <label for="itemCategory">Category</label>
+                <select id="itemCategory" required>
+                    <option value="">Select Category</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="supplies">Piercing Supplies</option>
+                    <option value="aftercare">Aftercare Products</option>
+                </select>
+
+                <label for="itemName">Item Name</label>
+                <input type="text" id="itemName" placeholder="Enter item name" required>
+
+                <label for="quantity">Quantity Sold</label>
+                <input type="number" id="quantity" min="1" required>
+
+                <button type="submit" class="btn">Update Inventory</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Ink Casa. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
