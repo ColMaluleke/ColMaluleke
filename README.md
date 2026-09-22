@@ -1,27 +1,55 @@
-<h1>Collen Maluleke</h1>
+<div align="center">
 
-**`Code Crusader`**
+# Collen Maluleke
 
-<p>🚀Attention all tech troopers and digital adventurers! This full-stack commando and DevOps astronaut (aka Code Conqueror) is here, ready to tackle your code and launch your applications into the vast expanse of cyberspace! Equipped with my trusty gear (C#, HTML5, CSS3, JavaScript, NodeJS, NPM, MySQL, JSON, PowerShell, AngularJS, Python), I craft interfaces that serenade and code that hums. Then, I fire up my automation thrusters (CI/CD, Infrastructure as Code) and, using Terraform, Docker, and Kubernetes, construct pipelines smoother than an orbital glide and infrastructure sturdier than a starship's hull. My Azure Administration skills keep the cloud crystal clear. So, suit up, pull my code from the repository, and together we'll execute legendary deployments, boldly coding the future, one extraordinary line at a time!🚀</p>
+**DevOps Engineer** — Azure, Kubernetes, GitOps
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-collenmaluleke.dev-000000?style=flat-square)](https://collenmaluleke.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/collenm)
+[![Email](https://img.shields.io/badge/Email-Contact-333333?style=flat-square&logo=maildotru&logoColor=white)](mailto:colmaluleke@gmail.com)
+
+</div>
 
 ---
 
-### 🔧 Languages and Tools
+I build and maintain infrastructure on Azure — AKS clusters, GitOps pipelines,
+and the observability underneath them. Five years in, most of what I do now
+is aimed at making incidents smaller and pages rarer, not just shipping
+faster.
 
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-plain.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />                    
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />       
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />
-<img align="left" alt="html" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+Case studies with real metrics are on my [portfolio](https://collenmaluleke.dev).
 
+## What I work with
+
+**Cloud & Platform**
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![AKS](https://img.shields.io/badge/AKS-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Infrastructure as Code**
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+
+**CI/CD & GitOps**
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+
+**Languages & Scripting**
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Observability**
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+## Currently
+
+Open to platform, SRE, and DevOps opportunities — [get in touch](https://collenmaluleke.dev/#contact).
