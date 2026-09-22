@@ -5,7 +5,6 @@
 **DevOps Engineer** — Azure, Kubernetes, GitOps
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-collenmaluleke.dev-000000?style=flat-square)](https://collenmaluleke.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/collenm)
 [![Email](https://img.shields.io/badge/Email-Contact-333333?style=flat-square&logo=maildotru&logoColor=white)](mailto:colmaluleke@gmail.com)
 
 </div>
